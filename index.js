@@ -18,6 +18,9 @@ const STAFF = [
   { id: '1152967843214794816', name: 'ZazixBuilder',        role: 'Founder' },
   { id: '1413545469690249412', name: '_Rio_De_Janeiro_',    role: 'Founder' },
   { id: '826034794580279297',  name: 'atkqbk',              role: 'Owner'   },
+  { id: '658274256995745813',  name: 'domonkos0406',        role: 'CommunityManager'   },
+  { id: '1162057550745845761',  name: 'Markhun1232',         role: 'Moderátor'   },
+  { id: '1040695294595178497',  name: 'TheMoonlight',        role: 'Moderátor'   },
 ];
 
 app.get('/api/staff', async (req, res) => {
